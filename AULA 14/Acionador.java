@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Acionar {
+public class Acionador {
     public static void main(String[] args) {
         Scanner acn = new Scanner(System.in);
         int btncor;
