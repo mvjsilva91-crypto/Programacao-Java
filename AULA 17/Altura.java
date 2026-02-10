@@ -1,4 +1,4 @@
-51,80
+
 import java.util.Scanner;
 
 public class Altura {
