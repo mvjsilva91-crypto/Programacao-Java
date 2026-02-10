@@ -20,8 +20,7 @@ public class Altura {
         } while (i <= 10);
 
         System.out.println(
-            "A quantidade de atletas com altura inferior a 1.80 é de: " + cont + "!!!"
-        );
+            "A quantidade de atletas com altura inferior a 1.80 é de: " + cont + "!!!");
 
         t.close();
     }
