@@ -1,0 +1,31 @@
+51,80
+import java.util.Scanner;
+
+public class Altura {
+    public static void main(String[] args) {
+        Scanner t = new Scanner(System.in);
+        int cont = 0;
+        float a;
+        int i = 1;
+
+        do {
+            System.out.print("Digite a altura do atleta: ");
+            a = t.nextFloat();
+
+            if (a < 1.80) {
+                cont++;
+            }
+
+            i++;
+        } while (i <= 10);
+
+        System.out.println(
+            "A quantidade de atletas com altura inferior a 1.80 é de: " + cont + "!!!"
+        );
+
+        t.close();
+    }
+}
+
+
+
