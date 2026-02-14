@@ -3,8 +3,10 @@ public class Funcionario {
     public double valorPorHora;
     public int horas;
 
-    
-        
+    public double total() {
+        return valorPorHora * horas;
     }
+        
+}
     
 

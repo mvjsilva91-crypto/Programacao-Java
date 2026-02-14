@@ -18,6 +18,8 @@ public class TipoFuncionario {
         f2.valorPorHora = sc.nextDouble();
         f2.horas = sc.nextInt();
 
+        double total = f1.total() + f2.total();
+        System.out.printf(  "O total do valor com as horas dos Funcionários "+ f1.nome + " e "+ f2.nome + " foi de " + "%.2f%n", total);
         sc.close();
     }
     
