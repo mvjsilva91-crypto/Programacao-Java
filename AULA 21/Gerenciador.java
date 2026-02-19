@@ -2,7 +2,7 @@
 public class Gerenciador {
     public static void main(String[] args) {
         Estoque estoque = new Estoque();
-        EntraDados entrada = EntraDados();
+        EntraDados entrada = new EntraDados();
 
         System.out.println("----- Gerenciador de Frutas -----");
 
@@ -13,7 +13,7 @@ public class Gerenciador {
         }
 
         estoque.gerarRelatorio();
-        entarda.fecharScanner();
+        entrada.fecharScanner();
 
     }
     

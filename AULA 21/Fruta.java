@@ -2,7 +2,7 @@ public class Fruta {
     private String nome;
     private int quantidade;
 
-    public Fruta(Sting nome, int quantidade) {
+    public Fruta(String nome, int quantidade) { 
         this.nome = nome;
         this.quantidade = quantidade;
     }
@@ -16,8 +16,6 @@ public class Fruta {
     }
 
     public boolean isEstoqueBaixo() {
-        return quantidade < 10;
+        return quantidade < 10; 
     }
-
-    
 }
