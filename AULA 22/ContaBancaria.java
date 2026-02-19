@@ -19,7 +19,7 @@ public class ContaBancaria {
     public void depositar(double valor) {
         if (valor > 0) {
             this.saldo += valor;
-            System.out.println("Depósito realizado com sucesso. Novo saldo: " + this.saldo);
+            System.out.println("Depósito realizado com sucesso.Novo saldo: " + this.saldo);
         } else {
             System.out.println("Valor de depósito inválido.");
         }
@@ -45,3 +45,4 @@ public class ContaBancaria {
         return this.saldo;
     }
 }
+

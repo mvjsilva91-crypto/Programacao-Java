@@ -1,5 +1,5 @@
 // Como usar:
-class MinhaConta {
+public class MinhaConta {
     public static void main(String[] args) {
         ContaBancaria minhaConta = new ContaBancaria(100.0);
 
