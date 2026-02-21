@@ -47,8 +47,18 @@ class Jogador {
         }
     }
 
+    // Ressucitar o jogador
+    public void ressucitarCorpo(int corpo) {
+        if (this.vida == 0) {
+            this.vida = VIDA_MAXIMA;
+            System.out.println(this.nome + " foi ressuscitado! Vida atual: " + this.vida);
+            
+        }
+    }
+
     // Getters
     public int getPontuacao() { return this.pontuacao; }
     public int getVida() { return this.vida; }
     public String getNome() { return this.nome; }
 }
+

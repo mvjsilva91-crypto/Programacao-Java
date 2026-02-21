@@ -23,6 +23,12 @@ public class Teste_Jogador {
         System.out.println("\nRecebendo um ataque devastador...");
         heroi.receberDano(150); // A vida vai para 0, não para -50
 
+         // 6. Recebendo dano letal
+        System.out.println("\nRecebendo Vida...");
+        heroi.ressucitarCorpo(200); 
+
+
+
         // 6. Tentativa de manipulação direta (ILEGAL)
         // A linha abaixo causará um erro de compilação, protegendo o estado do jogador.
         // heroi.vida = 9999; // ERRO: 'vida' tem acesso privado em 'Jogador'
